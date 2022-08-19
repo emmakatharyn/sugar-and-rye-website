@@ -1,0 +1,38 @@
+Sugar and Rye Website
+----------------------------------------------------------------------------
+COLOR STUFF!
+----------------------------------------------------------------------------
+---------------------------
+The Green Theme 
+---------------------------
+Primary - #004900 
+Secondary - 
+Hover - #117011
+Accent 1 - #C426B5
+Accent 2 - #F2C84B
+
+---------------------------
+Black and Gold Theme 
+---------------------------
+Primary - #EEC480
+Hover - #c8a56c
+Secondary - #F2F2F2
+Accent - #1A1A1A
+Accent - #D99C2B
+---------------------------
+Flamingo Pink Jungle
+---------------------------
+Primary - #FAA6C0
+Hover - #FABEC0
+Secondary - #436200
+Accent 1 - #F2C84B
+Accent 2 - #C426B5
+
+----------------------------------------------------------------------------
+FONTS, TYPOGRAPHY
+----------------------------------------------------------------------------
+
+Primary body - Lato
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap'); 
+    font-family: 'Lato', sans-serif;
+
