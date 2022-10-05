@@ -1,24 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap");
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-  /* scroll-behavior: smooth; */
-}
-
-body {
-  font-family: "Raleway", sans-serif;
-  line-height: 1;
-  font-weight: 400;
-  color: #555;
-  background-color: #333;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap");
 
 .header {
   display: flex;
@@ -30,6 +12,7 @@ body {
   height: 9.6rem;
   padding: 0 4.8rem;
   position: relative;
+  z-index: 100;
 }
 
 .logo {
@@ -55,7 +38,7 @@ body {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #004900;
+  color: #f2c84b;
 }
 
 .main-nav-link.nav-cta:link,
@@ -68,7 +51,7 @@ body {
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #003600;
+  background-color: #c426b5;
 }
 
 /* *********************** */
@@ -79,7 +62,7 @@ body {
   background: none;
   cursor: pointer;
 
-  /* display: none; */
+  display: none;
 }
 
 .icon-mobile-nav {
@@ -88,19 +71,46 @@ body {
   color: #333;
 }
 
-/* helper/utilities */
-.margin-right-sm {
-  margin-right: 1.6rem !important;
+.section-hero {
+  /* text-align: center; */
+  height: 100vh;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  background-image: linear-gradient(
+      rgba(29, 37, 30, 0.505),
+      rgba(29, 37, 30, 0.505)
+    ),
+    url(images/nikita-tikhomirov-martini-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.margin-bottom-md {
-  margin-bottom: 4.8rem !important;
+.hero {
+  width: 50%;
+  color: #fff;
+  font-size: 2rem;
+  position: absolute;
+  /* in relation to PARENT */
+  left: 50%;
+  top: 50%;
+  transform: translate(-75%, -50%);
 }
 
-.center-text {
-  text-align: center;
+.hero .heading-primary {
+  color: #fff;
+}
+.hero p {
+  line-height: 1.2;
 }
 
-strong {
-  font-weight: 500;
+.hero .btn:link,
+.hero .btn:visited {
+  margin-top: 32px;
+  margin-right: 24px;
+}
+
+.hero .btn:hover,
+.hero .btn:active {
+  background-color: #c426b5;
 }
