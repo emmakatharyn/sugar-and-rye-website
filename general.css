@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  font-family: "Lato", Helvetica, sans-serif;
+  font-family: "Lora", "Times New Roman", Times, serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -45,7 +45,7 @@ body {
   /* display must be set to inline-block to add spacing styles */
   display: inline-block;
   padding: 16px 32px;
-  border-radius: 9px;
+  /* border-radius: 9px; */
 }
 
 .heading-primary,
