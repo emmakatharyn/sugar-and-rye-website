@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="queries.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header nav-open">
       <a href="#">
         <img
           class="logo"
@@ -39,41 +39,78 @@
         </ul>
       </nav>
 
+      <!-- mobile navigation icons -->
       <button class="btn-mobile-nav">
-        <ion-icon name="menu-outline" name="menu-outline"></ion-icon>
-        <ion-icon name="close-outline" name="close-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
       </button>
     </header>
     <section class="section-hero">
       <div class="hero">
-        <h1 class="heading-primary">Opening Fall 2022</h1>
-        <p>
-          Galveston's premier coastal kitchen and cocktail lounge. A fabulously
-          historic and eccentric spot in the heart of the Strand District.
-        </p>
-        <p>
-          Now accepting reservations for Fall 2022. Be the first to wine and
-          dine with us!
-        </p>
-        <a href="#" class="btn">Book a table</a>
-        <a href="#" class="btn">View menu</a>
+        <div class="hero-logo-box">
+          <img
+            src="images/sugar&rye_gold_and_white_on_transparent.png"
+            alt="Sugar & Rye Logo"
+          />
+        </div>
+        <h1 class="heading-primary">Coming Soon</h1>
+        <div class="hero-blurb">
+          <p>
+            Galveston's premier coastal kitchen and cocktail lounge. A
+            fabulously funky and historic spot in the heart of the Strand
+            District.
+          </p>
+          <p>
+            Now accepting reservations for our grand opening in Winter 2022. Be
+            the first to wine and dine with us!
+          </p>
+        </div>
+        <div class="hero-btns-box">
+          <a href="#" class="btn">Book a table</a>
+          <a href="#" class="btn">View menu</a>
+        </div>
       </div>
     </section>
 
     <main>
-      <div class="container">
-        <h2 class="heading-secondary">Book a reservation</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid culpa
-          ullam, maxime corrupti, nobis, corporis numquam natus sequi tenetur
-          ipsum distinctio eveniet assumenda ea accusantium. Sint labore
-          corporis eligendi! Aliquam. Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Tempore magnam optio porro quae? Atque totam
-          veritatis, facere numquam pariatur maiores, necessitatibus beatae vel
-          culpa debitis odit. Fuga nesciunt totam numquam? Lorem ipsum, dolor
-          sit amet consectetur adipisicing elit. Eligendi odio nisi rem.
-        </p>
-      </div>
+      <section id="reservations">
+        <div class="container">
+          <h2 class="heading-secondary">Something goes here idk</h2>
+
+          <a href="#" id="openTableLink" class="btn">Make a reservation</a>
+        </div>
+      </section>
+
+      <section id="menu">
+        <div class="container">
+          <div class="menu">
+            <h2 class="menu-group-heading">Old Fashioneds</h2>
+            <div class="menu-group">
+              <div class="menu-item">
+                <img
+                  class="menu-item-image"
+                  src="https://images.unsplash.com/photo-1621873495884-845a939892d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                  alt="Old Fashioned"
+                />
+                <div class="menu-item-text">
+                  <h3 class="menu-item-heading">
+                    <span class="menu-item-name">Sugar's Old Fashioned</span>
+                    <span class="menu-item-price">$16</span>
+                  </h3>
+                  <p class="menu-item-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat voluptatem odio officia ab, at mollitia eligendi
+                    corporis, veniam animi ipsum nostrum similique quasi libero
+                    iste minima aliquid placeat assumenda esse.
+                  </p>
+                </div>
+              </div>
+
+              <div class="menu-item"></div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- <section class="section-hero">
         <div class="hero">
           <div class="hero-text-box">
@@ -91,6 +128,14 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
   </body>
 </html>
