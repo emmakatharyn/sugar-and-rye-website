@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 
@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fdf2e9;
+  background-color: #f9f2f2;
 
   /* want header to be sticky later on */
   height: 9.6rem;
@@ -45,13 +45,14 @@
 .main-nav-link.nav-cta:visited {
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
-  color: #fff;
-  background-color: #004900;
+  color: #444;
+  background-color: #f2dfdf;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #c426b5;
+  background-color: #93a296;
+  color: #f9f2f2;
 }
 
 /* *********************** */
@@ -82,8 +83,8 @@
   align-items: center;
   justify-content: center; */
   background-image: linear-gradient(
-      rgba(41, 63, 44, 0.505),
-      rgba(23, 45, 26, 0.505)
+      rgba(102, 64, 96, 0.505),
+      rgba(58, 16, 56, 0.505)
     ),
     url(https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
   background-size: cover;
@@ -97,7 +98,7 @@
   position: absolute;
   /* in relation to PARENT */
   left: 50%;
-  top: 25%;
+  top: 15%;
   transform: translate(-75%, -50%);
 }
 
@@ -129,13 +130,15 @@
 
 .hero .btn:hover,
 .hero .btn:active {
-  background-color: #c426b5;
+  background-color: #93a296;
+  color: #f9f2f2;
 }
 
 /* reservations */
 #reservations .flex-div {
   display: flex;
   gap: 2.4rem;
+  padding-bottom: 4.2rem;
 }
 
 #reservations .flex-div img {
@@ -158,10 +161,15 @@
 }
 
 /* menu section */
+
+section#menu .menu {
+  margin-top: 6.4rem;
+}
 section#menu .menu-group-heading {
   margin: 0;
   padding-bottom: 1em;
   border-bottom: 2px solid #ccc;
+  font-size: 3.6rem;
 }
 
 section#menu .menu-group {
@@ -198,12 +206,14 @@ section#menu .menu-item-name {
 }
 
 section#menu .menu-item-description {
+  margin-top: 2rem;
   line-height: 1.6;
+  font-size: 1.6rem;
 }
 
 @media screen and (min-width: 992px) {
   section#menu .menu {
-    font-size: 16px;
+    /* font-size: 12px; */
   }
 
   section#menu .menu-group {
@@ -213,5 +223,9 @@ section#menu .menu-item-description {
   section#menu .menu-item-image {
     width: 125px;
     height: 125px;
+  }
+
+  #menu p.menu-item-description {
+    font-size: 1.4rem;
   }
 }

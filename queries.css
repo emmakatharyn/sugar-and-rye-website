@@ -32,7 +32,7 @@
   }
 
   .nav-open .main-nav {
-    opacity: 1;
+    /* opacity: 1; */
   }
 
   .main-nav-list {
@@ -66,7 +66,6 @@
   #reservations .flex-div {
     flex-direction: column;
     /* gap: 2.4rem; */
-    padding-bottom: 4.2rem;
   }
 
   #reservations .flex-div img {
