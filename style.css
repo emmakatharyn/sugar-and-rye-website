@@ -122,6 +122,10 @@
   line-height: 1.3;
 }
 
+.hero-btns-box {
+  display: flex;
+}
+
 .hero .btn:link,
 .hero .btn:visited {
   margin-top: 32px;
@@ -132,21 +136,26 @@
 .hero .btn:active {
   background-color: #93a296;
   color: #f9f2f2;
+  cursor: pointer;
 }
 
 /* reservations */
-#reservations .flex-div {
+#reservations .flex-div,
+#menus .flex-div {
   display: flex;
   gap: 2.4rem;
   padding-bottom: 4.2rem;
 }
 
-#reservations .flex-div img {
+#reservations .flex-div img,
+#menus .flex-div img {
   width: 50%;
   max-width: 42rem;
+  flex-shrink: 1;
 }
 
-#reservations .flex-div div {
+#reservations .flex-div div,
+#menus .flex-div div {
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -154,7 +163,8 @@
   align-items: center;
 }
 
-#reservations .flex-div div p {
+#reservations .flex-div div p,
+#menus .flex-div div p {
   font-size: 2.2rem;
   text-align: center;
   line-height: 1.8;
@@ -162,7 +172,7 @@
 
 /* menu section */
 
-section#menu .menu {
+/* section#menu .menu {
   margin-top: 6.4rem;
 }
 section#menu .menu-group-heading {
@@ -212,10 +222,6 @@ section#menu .menu-item-description {
 }
 
 @media screen and (min-width: 992px) {
-  section#menu .menu {
-    /* font-size: 12px; */
-  }
-
   section#menu .menu-group {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -228,4 +234,4 @@ section#menu .menu-item-description {
   #menu p.menu-item-description {
     font-size: 1.4rem;
   }
-}
+} */

@@ -68,18 +68,30 @@
     /* gap: 2.4rem; */
   }
 
-  #reservations .flex-div img {
+  #menus .flex-div {
+    flex-direction: column-reverse;
+  }
+
+  #reservations .flex-div img,
+  #menus .flex-div img {
     width: 100%;
     max-width: 56rem;
     margin: 0 auto;
   }
 
-  #reservations .flex-div div {
+  #reservations .flex-div div,
+  #menus .flex-div div {
     gap: 3.2rem;
   }
 
-  #reservations .flex-div div p {
+  #reservations .flex-div div p,
+  #menus .flex-div div p {
     font-size: 2rem;
+  }
+
+  .heading-secondary {
+    margin-bottom: 7.2rem;
+    margin-top: 7.2rem;
   }
 }
 
