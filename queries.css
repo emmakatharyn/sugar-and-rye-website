@@ -10,6 +10,12 @@
   nav.main-nav {
     /* display: none; */
   }
+  .header {
+    justify-content: space-between;
+  }
+  .header .logo {
+    display: block;
+  }
   .btn-mobile-nav {
     display: block;
   }
@@ -66,12 +72,14 @@
 
   /* end of original nav queries */
   .hero {
+    text-align: center;
+    margin: 0 auto;
     width: 75%;
     /* margin-top: 10px; */
-    position: relative;
-    top: 25%;
-    left: 15%;
-    transform: translate(-10%, -20%);
+    /* position: relative; */
+    /* top: 25%; */
+    /* left: 15%; */
+    /* transform: translate(-10%, -20%); */
   }
 
   .hero .heading-primary {
@@ -79,7 +87,11 @@
   }
 
   .hero p {
-    font-size: 18px;
+    font-size: 1.8rem;
+  }
+
+  .hero-btns-box {
+    justify-content: center;
   }
 }
 
@@ -120,6 +132,11 @@
     /*this will be activated with JavaScript*/
     left: 0;
     z-index: 2;
+  }
+
+  .hours-flexbox {
+    flex-direction: column;
+    height: auto;
   }
   #reservations .flex-div,
   #about .flex-div {
@@ -166,11 +183,15 @@
     margin: 0 auto;
   }
   .hero .hero-logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     width: 100%;
     max-width: 36rem;
   }
   .hero-logo-box img {
-    max-width: 100vh;
+    /* max-width: 100vh; */
   }
 }
 
@@ -202,5 +223,15 @@
     transform: translateX(-2%);
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 976px) {
+  .header .logo {
+    display: none;
+  }
+
+  .hero p {
+    max-width: 75%;
   }
 }
