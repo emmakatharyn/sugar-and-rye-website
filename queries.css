@@ -1,10 +1,12 @@
 @media (max-width: 1200px) {
+  /* not sure what this was for but i'm pretty sure it was commented out */
   /* .section-hero {
     background-size: contain;
   } */
 }
 
 @media (max-width: 976px) {
+  /* start of original nav queries */
   nav.main-nav {
     /* display: none; */
   }
@@ -19,20 +21,37 @@
     left: 0;
     width: 100%;
     height: 100vh;
+    transform: translateX(100%);
 
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s ease-in;
 
     /* hide navigation by default */
     /* display none does not allow animations */
     /* display: none; */
 
     opacity: 0;
+
+    pointer-events: none;
+
+    visibility: hidden;
   }
 
   .nav-open .main-nav {
-    /* opacity: 1; */
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
   }
 
   .main-nav-list {
@@ -44,6 +63,8 @@
   .main-nav-link:visited {
     font-size: 3rem;
   }
+
+  /* end of original nav queries */
   .hero {
     width: 75%;
     /* margin-top: 10px; */
@@ -63,7 +84,45 @@
 }
 
 @media (max-width: 768px) {
-  #reservations .flex-div {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #262626;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    /*this will be activated with JavaScript*/
+    left: 0;
+    z-index: 2;
+  }
+  #reservations .flex-div,
+  #about .flex-div {
     flex-direction: column;
     /* gap: 2.4rem; */
   }
@@ -73,19 +132,22 @@
   }
 
   #reservations .flex-div img,
-  #menus .flex-div img {
+  #menus .flex-div img,
+  #about .flex-div img {
     width: 100%;
     max-width: 56rem;
     margin: 0 auto;
   }
 
   #reservations .flex-div div,
-  #menus .flex-div div {
+  #menus .flex-div div,
+  #about .flex-div div {
     gap: 3.2rem;
   }
 
   #reservations .flex-div div p,
-  #menus .flex-div div p {
+  #menus .flex-div div p,
+  #about .flex-div div p {
     font-size: 2rem;
   }
 

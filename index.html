@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="queries.css" />
   </head>
   <body>
-    <header class="header nav-open">
+    <!-- original navigation -->
+    <header class="header">
       <a href="#">
         <img
           class="logo"
@@ -29,9 +30,17 @@
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#menu">Menu</a></li>
           <li><a class="main-nav-link" href="#about">About</a></li>
-          <!-- <li><a class="main-nav-link" href="#gallery">Gallery</a></li> -->
-          <li><a class="main-nav-link" href="#contact">Contact</a></li>
-          <li><a class="main-nav-link" href="#order">Order Online</a></li>
+
+          <li><a class="main-nav-link" href="#hours">Hours</a></li>
+          <li><a class="main-nav-link" href="#events">Events</a></li>
+          <li>
+            <a
+              class="main-nav-link"
+              href="https://www.toasttab.com/sugar-rye-2401-church-st/v3/?mode=fulfillment"
+              target="_blank"
+              >Order Online</a
+            >
+          </li>
           <li>
             <a class="main-nav-link nav-cta" href="#reservations"
               >Reserve a Table</a
@@ -40,12 +49,36 @@
         </ul>
       </nav>
 
-      <!-- mobile navigation icons -->
       <button class="btn-mobile-nav">
         <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
         <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
       </button>
     </header>
+
+    <!-- <header>
+      <nav class="navbar">
+        <a href="#" class="nav-branding">ERISA</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header> -->
     <section class="section-hero">
       <div class="hero">
         <div class="hero-logo-box">
@@ -61,10 +94,6 @@
             fabulously funky and historic spot in the heart of the Strand
             District.
           </p>
-          <p>
-            Now accepting reservations for our grand opening in Winter 2022. Be
-            the first to wine and dine with us!
-          </p>
         </div>
         <div class="hero-btns-box">
           <a href="#" class="btn">Book a table</a>
@@ -77,7 +106,11 @@
       <section id="reservations">
         <div class="container">
           <h2 class="heading-secondary text-center">Make a Reservation</h2>
-
+          <p class="comeDine">
+            Now accepting reservations for our soft opening January
+            16<sup>th</sup>.
+            <br />Be the first to wine and dine with us!
+          </p>
           <div class="flex-div">
             <img
               src="images/no-revisions-gA81ZTsql68-unsplash.jpg"
@@ -115,6 +148,28 @@
               src="images/casey-lee-awj7sRviVXo-unsplash.jpg"
               alt="Cocktail with rosemary and lime garnish"
             />
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container">
+          <h2 class="heading-secondary text-center">Our Story</h2>
+
+          <div class="flex-div">
+            <img
+              src="images/febrian-zakaria-SiQgni-cqFg-unsplash.jpg"
+              alt="Cocktail with rosemary and lime garnish"
+            />
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+                perspiciatis saepe nobis dignissimos reiciendis at in. Ullam sit
+                sed, repellat sint iusto consequuntur facilis, voluptatem
+                consequatur tempora ad, omnis quae!
+              </p>
+              <a href="#contact" id="" class="btn">Get in touch</a>
+            </div>
           </div>
         </div>
       </section>
@@ -380,5 +435,7 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
