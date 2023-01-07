@@ -47,7 +47,7 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #444;
-  background-color: #f2dfdf;
+  background-color: #f9d1d3;
 }
 
 .main-nav-link.nav-cta:hover,
@@ -82,7 +82,7 @@
 .section-hero {
   position: relative;
   /* text-align: center; */
-  height: 120vh;
+  height: 140vh;
   /* display: flex;
   align-items: center;
   justify-content: center; */
@@ -120,7 +120,9 @@
   color: #fff;
 }
 .hero div.hero-blurb {
+  text-align: center;
   width: 100%;
+  padding: 0.8rem;
   /* padding-right: 24px; */
 }
 .hero div.hero-blurb p {
@@ -135,7 +137,8 @@
 .hero .btn:link,
 .hero .btn:visited {
   margin-top: 32px;
-  margin-right: 24px;
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
 }
 
 .hero .btn:hover,
@@ -164,6 +167,7 @@
   display: flex;
   justify-content: center;
   gap: 10%;
+  margin-top: -1.6rem;
 }
 
 .hours-flexbox div {
@@ -181,10 +185,13 @@
 .hours-flexbox div h4 {
   font-size: 2rem;
   text-transform: uppercase;
-  margin-bottom: 1.6rem;
+  margin-bottom: 2rem;
+  color: #93a296;
 }
 
-/*  */
+.hours-flexbox p {
+  line-height: 1.6;
+}
 
 /* reservations, menus, about */
 #reservations .comeDine {
@@ -293,3 +300,31 @@ section#menu .menu-item-description {
     font-size: 1.4rem;
   }
 } */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  padding: 2.4rem 1.2rem;
+  margin-top: 7.2rem;
+}
+
+footer ul {
+  display: flex;
+  gap: 3.6rem;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a:link,
+footer ul li a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+.social-icon {
+  font-size: 3.2rem;
+}
