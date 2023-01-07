@@ -86,8 +86,9 @@
     font-size: 36px;
   }
 
-  .hero p {
-    font-size: 1.8rem;
+  .hero div.hero-blurb p {
+    font-size: 2.4rem;
+    text-align: center;
   }
 
   .hero-btns-box {
