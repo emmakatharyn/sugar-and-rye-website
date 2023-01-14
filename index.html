@@ -46,7 +46,8 @@
           <li>
             <a
               class="main-nav-link nav-cta"
-              href="mailto:srgalveston@outlook.com"
+              href="https://resy.com/cities/glv/sugar-and-rye"
+              target="_blank"
               >Reserve a Table</a
             >
           </li>
@@ -99,7 +100,12 @@
           </p>
         </div>
         <div class="hero-btns-box">
-          <a href="mailto:srgalveston@outlook.com" class="btn">Book a table</a>
+          <a
+            href="https://resy.com/cities/glv/sugar-and-rye"
+            target="_blank"
+            class="btn"
+            >Book a table</a
+          >
           <a href="#menus" class="btn">View menu</a>
         </div>
       </div>
@@ -147,7 +153,17 @@
                 Now accepting reservations for our soft opening in February
                 2023. Be among the first to wine and dine with us!
               </p>
-              <a href="#" id="openTableLink" class="btn">Reserve a table</a>
+              <a
+                href="https://resy.com/cities/glv/sugar-and-rye"
+                id="openTableLink"
+                class="btn"
+                >Reserve a table</a
+              >
+              <!-- <a
+                href=""
+                id="resyButton-Q0yel4IS134nM7fSGX3b1"
+                >Book your Sugar & Rye reservation on Resy</a
+              > -->
             </div>
           </div>
         </div>
@@ -467,7 +483,10 @@
     </main>
     <footer>
       <div>
-        <p>Copyright &copy; 2023 Emma Reed</p>
+        <p>
+          Copyright &copy; 2023
+          <a href="https://www.emmakreed.com/" target="_blank">Emma Reed</a>
+        </p>
       </div>
       <ul>
         <li>
@@ -486,8 +505,9 @@
         </li>
         <li>
           <a href="#"
-            ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
-          ></a>
+            ><ion-icon class="social-icon" name="arrow-up-outline"></ion-icon>
+            Back to top</a
+          >
         </li>
       </ul>
     </footer>
@@ -506,5 +526,17 @@
     ></script>
 
     <script src="script.js"></script>
+
+    <script src="https://widgets.resy.com/embed.js"></script>
+    <script>
+      resyWidget.addButton(
+        document.getElementById("resyButton-Q0yel4IS134nM7fSGX3b1"),
+        {
+          venueId: 67433,
+          apiKey: "HyzaGLruPp0ewohAkoS69qmgYWLKNs3B",
+          replace: true,
+        }
+      );
+    </script>
   </body>
 </html>

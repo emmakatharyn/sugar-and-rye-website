@@ -211,6 +211,10 @@
   #about .flex-div div {
     margin-bottom: 6.4rem;
   }
+
+  footer {
+    flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 640px) {
