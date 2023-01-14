@@ -28,11 +28,11 @@
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#menu">Menu</a></li>
+          <li><a class="main-nav-link" href="#menus">Menu</a></li>
           <li><a class="main-nav-link" href="#about">About</a></li>
 
-          <li><a class="main-nav-link" href="#hours">Hours</a></li>
-          <li><a class="main-nav-link" href="#events">Events</a></li>
+          <li><a class="main-nav-link" href="#hoursBanner">Hours</a></li>
+          <!-- <li><a class="main-nav-link" href="#events">Events</a></li> -->
           <li>
             <a
               class="main-nav-link"
@@ -42,7 +42,9 @@
             >
           </li>
           <li>
-            <a class="main-nav-link nav-cta" href="#reservations"
+            <a
+              class="main-nav-link nav-cta"
+              href="mailto:srgalveston@outlook.com"
               >Reserve a Table</a
             >
           </li>
@@ -87,7 +89,7 @@
             alt="Sugar & Rye Logo"
           />
         </div>
-        <h1 class="heading-primary">Coming Soon</h1>
+        <h1 class="heading-primary">Opening February 2023</h1>
         <div class="hero-blurb">
           <p>
             A fabulously renovated spot in the historic Strand District of
@@ -95,8 +97,8 @@
           </p>
         </div>
         <div class="hero-btns-box">
-          <a href="#" class="btn">Book a table</a>
-          <a href="#" class="btn">View menu</a>
+          <a href="mailto:srgalveston@outlook.com" class="btn">Book a table</a>
+          <a href="#menus" class="btn">View menu</a>
         </div>
       </div>
     </section>
@@ -120,8 +122,8 @@
         </div>
         <div>
           <h4>Location</h4>
-          <p>123 Church St.</p>
-          <p>Galveston, Texas</p>
+          <p>2401 Church St.</p>
+          <p>Galveston, Texas 77550</p>
         </div>
       </div>
     </section>
@@ -138,10 +140,10 @@
               alt="Cocktail with rosemary and lime garnish"
             />
             <div>
-              <h2 class="heading-secondary text-center">Make a Reservation</h2>
+              <h2 class="heading-secondary">Make a Reservation</h2>
               <p class="comeDine">
-                Now accepting reservations for our soft opening on [insert
-                date]. Be among the first to wine and dine with us!
+                Now accepting reservations for our soft opening in February
+                2023. Be among the first to wine and dine with us!
               </p>
               <a href="#" id="openTableLink" class="btn">Reserve a table</a>
             </div>
@@ -153,42 +155,63 @@
         <div class="container">
           <!-- <h2 class="heading-secondary">Menus</h2> -->
 
-          <div class="flex-div">
-            <div>
-              <h2 class="heading-secondary">Menus</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-                perspiciatis saepe nobis dignissimos reiciendis at in. Ullam sit
-                sed, repellat sint iusto consequuntur facilis, voluptatem
-                consequatur tempora ad, omnis quae!
-              </p>
-              <a href="#" id="dinnerMenu" class="btn">Menu</a>
-            </div>
-            <img
+          <!-- <div class="flex-div"> -->
+
+          <h2 class="heading-secondary">Menus</h2>
+
+          <div class="menu-links-box">
+            <a
+              href="images/New-Brunch-and-Lunch.pdf"
+              id="daytimeMenu"
+              class="btn"
+              target="_blank"
+              >Brunch & Lunch</a
+            >
+            <a
+              href="images/New-Dinner-Menu.pdf"
+              id="dinnerMenu"
+              class="btn"
+              target="_blank"
+              >Dinner Menu</a
+            >
+            <a
+              href="/images/pdf_20230108_121245_0000.pdf"
+              id="boozeyMenu"
+              class="btn"
+              target="_blank"
+              >Cocktails & Beer</a
+            >
+          </div>
+
+          <!-- <img
               src="images/casey-lee-awj7sRviVXo-unsplash.jpg"
               alt="stock photo of salmon entree"
-            />
-          </div>
+            /> -->
+          <!-- </div> -->
         </div>
       </section>
 
       <section id="about">
         <div class="container">
           <div class="flex-div">
-            <img
-              src="images/febrian-zakaria-SiQgni-cqFg-unsplash.jpg"
-              alt="Stock photo of chef"
-            />
             <div>
-              <h2 class="heading-secondary text-center">Our Story</h2>
+              <h2 class="heading-secondary text-center">About Sugar & Rye</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-                perspiciatis saepe nobis dignissimos reiciendis at in. Ullam sit
-                sed, repellat sint iusto consequuntur facilis, voluptatem
-                consequatur tempora ad, omnis quae!
+                We believe our success lies in the hands of our employees, and
+                their happiness translates to a meaningful guest experience. We
+                are so excited to be a part of the Galveston Food Scene and we
+                look forward to sharing our progress with you all as we prepare
+                for opening day.
               </p>
-              <a href="#contact" id="" class="btn">Get in touch</a>
+              <a href="mailto:srgalveston@outlook.com" id="" class="btn"
+                >Get in touch</a
+              >
             </div>
+            <!-- <img src="images/large_round_grn.png" alt="Sugar and Rye logo" /> -->
+            <img
+              src="images/building-blacknwhite-historic.jpg"
+              alt="Historic photo of building location"
+            />
           </div>
         </div>
       </section>
@@ -442,7 +465,7 @@
     </main>
     <footer>
       <div>
-        <p>Copyright &copy; 2022 Emma Reed</p>
+        <p>Copyright &copy; 2023 Emma Reed</p>
       </div>
       <ul>
         <li>
@@ -459,9 +482,11 @@
             ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
           ></a>
         </li>
-        <!-- <li>
-          <a href="#">Twitter</a>
-        </li> -->
+        <li>
+          <a href="#"
+            ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+          ></a>
+        </li>
       </ul>
     </footer>
     <script

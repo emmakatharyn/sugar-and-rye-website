@@ -94,6 +94,32 @@
   .hero-btns-box {
     justify-content: center;
   }
+
+  #about .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  #about .flex-div div p {
+    font-size: 1.8rem;
+  }
+
+  #reservations .container .heading-secondary {
+    text-align: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .hours-flexbox {
+    gap: 1.2rem;
+  }
+  .hours-flexbox div h4 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 780px) {
+  #menus .menu-links-box {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px) {
@@ -135,12 +161,6 @@
     z-index: 2;
   }
 
-  .hours-flexbox {
-    flex-direction: column;
-    min-height: fit-content;
-    margin-top: 6.4rem;
-  }
-
   #hoursBanner {
     height: 96rem;
   }
@@ -173,11 +193,23 @@
   #menus .flex-div div p,
   #about .flex-div div p {
     font-size: 2.6rem;
+    margin-bottom: 6.4rem;
   }
 
   .heading-secondary {
     margin-bottom: 3.2rem;
     margin-top: 7.2rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .hours-flexbox {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  #about .flex-div div {
+    margin-bottom: 6.4rem;
   }
 }
 
@@ -200,6 +232,13 @@
   }
   .hero-logo-box img {
     /* max-width: 100vh; */
+  }
+
+  .hours-flexbox {
+    /* flex-direction: column; */
+    min-height: fit-content;
+    margin-top: 6.4rem;
+    gap: 2.4rem;
   }
 }
 
@@ -236,6 +275,10 @@
   p.comeDine {
     margin-top: 24px;
     margin-bottom: 24px;
+  }
+
+  #about .container {
+    padding: 0;
   }
 
   footer {
