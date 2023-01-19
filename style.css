@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+/* green from logo! */
+/* #889672 */
+
+/* gold from signature */
+/* #eac569 */
+
+/* pink from small logo */
+/* #f9d1d3 */
 
 /* start of original navigation styles */
 .header {
@@ -40,7 +48,7 @@
 .main-nav-link:hover,
 .main-nav-link:active {
   /* color: #f2c84b; */
-  color: #7ca082;
+  color: #889672;
 }
 
 .main-nav-link.nav-cta:link,
@@ -48,13 +56,14 @@
   padding: 1.2rem 2.4rem;
   border-radius: 0.25rem;
   color: #444;
-  background-color: #f9d1d3;
+  /* background-color: #f9d1d3; */
+  background-color: #f7de94;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #93a296;
-  color: #f9f2f2;
+  background-color: #889672;
+  color: #fff;
 }
 
 /* *********************** */
@@ -141,13 +150,14 @@
 .hero .btn:link,
 .hero .btn:visited {
   margin-top: 32px;
+  background-color: #f7de94;
   /* margin-right: 0.8rem; */
   /* margin-left: 0.8rem; */
 }
 
 .hero .btn:hover,
 .hero .btn:active {
-  background-color: #93a296;
+  background-color: #889672;
   color: #f9f2f2;
   cursor: pointer;
 }
@@ -190,7 +200,7 @@
   font-size: 2rem;
   text-transform: uppercase;
   margin-bottom: 2rem;
-  color: #527959;
+  color: #889672;
   opacity: 0.8;
 }
 
@@ -268,9 +278,15 @@
   justify-content: center;
 }
 
-#menus .btn {
-  background-color: #7ca082;
+#menus .btn:link,
+#menus .btn:visited {
+  background-color: #889672;
   color: #eee;
+}
+
+#menus .btn:hover,
+#menus .btn:active {
+  background-color: #7c8868;
 }
 
 /* menu section */

@@ -55,6 +55,11 @@ section p {
   /* border-radius: 9px; */
 }
 
+.btn:hover,
+.btn:active {
+  background-color: #f1c8ca;
+}
+
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
