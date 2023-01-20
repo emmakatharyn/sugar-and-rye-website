@@ -26,7 +26,14 @@ body {
 
   position: relative;
 }
+/* add this in separate commit maybe? */
+/* main {
+  background-image: url("https://cdn.shopify.com/s/files/1/0015/4117/7456/products/BananaLeaf-BrentwoodBlush_ba145331-f9e9-4d70-bcbb-2201428afb1e_576x576.jpg?v=1613776986");
+} */
 
+main {
+  background-color: #f9d1d3;
+}
 nav li a:link,
 section p {
   font-family: Roboto, Arial, sans-serif;
@@ -35,7 +42,11 @@ section p {
 /* ****************************** */
 /*  GENERAL REUSABLE COMPONENTS  */
 /* ****************************** */
-
+section {
+  background-color: whitesmoke;
+  max-width: 120rem;
+  margin: 0 auto;
+}
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -98,5 +109,5 @@ section p {
 
 #hoursBanner,
 #reservations {
-  margin-top: 4.2rem;
+  /* margin-top: 4.2rem; */
 }

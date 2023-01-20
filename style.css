@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #f9f2f2; */
+  background-color: #f9f2f2;
 
   /* want header to be sticky later on */
   height: 9.6rem;
@@ -289,14 +289,18 @@
   background-color: #7c8868;
 }
 
-/* menu section */
+/* actual menu section */
+section#menu {
+  margin-top: 9.4rem;
+}
 
-/* section#menu .menu {
-  margin-top: 6.4rem;
+section#menu .menu {
+  padding: 4.2rem 2.2rem;
 }
 section#menu .menu-group-heading {
   margin: 0;
-  padding-bottom: 1em;
+  margin-bottom: 2.4rem;
+  padding-bottom: 1.6rem;
   border-bottom: 2px solid #ccc;
   font-size: 3.6rem;
 }
@@ -310,14 +314,7 @@ section#menu .menu-group {
 
 section#menu .menu-item {
   display: flex;
-}
-
-section#menu .menu-item-image {
-  width: 80px;
-  height: 80px;
-  flex-shrink: 0;
-  object-fit: cover;
-  margin-right: 1.5em;
+  max-width: 42rem;
 }
 
 section#menu .menu-item-text {
@@ -332,12 +329,49 @@ section#menu .menu-item-heading {
 
 section#menu .menu-item-name {
   margin-right: 1.5em;
+  text-transform: uppercase;
 }
 
 section#menu .menu-item-description {
   margin-top: 2rem;
   line-height: 1.6;
   font-size: 1.6rem;
+}
+
+#menu .menu-item.side-box {
+  background-color: #f9d1d373;
+
+  width: 60%;
+  padding: 1.2rem;
+}
+
+section#menu .sides {
+  /* background-color: pink; */
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.sides .side-piece {
+  font-size: 1.6rem;
+  line-height: 1;
+  margin: 0.8rem 0;
+}
+
+.side-box .sides {
+  margin-top: 2rem;
+}
+
+/* brunch cocktails */
+section#menu .menu-group-heading.cocktails-heading {
+  font-size: 2.4rem;
+  margin-top: 1.2rem;
+}
+
+#menu .bitchin-kitchen {
+  text-align: left;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 992px) {
@@ -349,11 +383,7 @@ section#menu .menu-item-description {
     width: 125px;
     height: 125px;
   }
-
-  #menu p.menu-item-description {
-    font-size: 1.4rem;
-  }
-} */
+}
 
 #about p {
   max-width: 75%;
