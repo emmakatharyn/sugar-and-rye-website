@@ -424,3 +424,8 @@ footer ul li a:visited {
 .social-icon {
   font-size: 3.2rem;
 }
+
+/* will use JS to fuck with this */
+#menu {
+  /* display: none; */
+}
