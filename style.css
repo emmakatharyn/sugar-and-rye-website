@@ -290,62 +290,63 @@
 }
 
 /* actual menu section */
-section#menu {
+section.menu {
   margin-top: 9.4rem;
 }
 
-section#menu .menu {
+section.menu .menu {
   padding: 4.2rem 2.2rem;
 }
-section#menu .menu-group-heading {
+section.menu .menu-group-heading {
   margin: 0;
   margin-bottom: 2.4rem;
   padding-bottom: 1.6rem;
   border-bottom: 2px solid #ccc;
   font-size: 3.6rem;
+  font-family: "Homemade Apple", cursive;
 }
 
-section#menu .menu-group {
+section.menu .menu-group {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5em;
   padding: 1.5em 0;
 }
 
-section#menu .menu-item {
+section.menu .menu-item {
   display: flex;
   max-width: 42rem;
 }
 
-section#menu .menu-item-text {
+section.menu .menu-item-text {
   flex-grow: 1;
 }
 
-section#menu .menu-item-heading {
+section.menu .menu-item-heading {
   display: flex;
   justify-content: space-between;
   margin: 0;
 }
 
-section#menu .menu-item-name {
+section.menu .menu-item-name {
   margin-right: 1.5em;
   text-transform: uppercase;
 }
 
-section#menu .menu-item-description {
+section.menu .menu-item-description {
   margin-top: 2rem;
   line-height: 1.6;
   font-size: 1.6rem;
 }
 
-#menu .menu-item.side-box {
+.menu .menu-item.side-box {
   background-color: #f9d1d373;
 
   width: 60%;
   padding: 1.2rem;
 }
 
-section#menu .sides {
+section.menu .sides {
   /* background-color: pink; */
   height: 12rem;
   display: flex;
@@ -364,22 +365,22 @@ section#menu .sides {
 }
 
 /* brunch cocktails */
-section#menu .menu-group-heading.cocktails-heading {
+section.menu .menu-group-heading.cocktails-heading {
   font-size: 2.4rem;
   margin-top: 1.2rem;
 }
 
-#menu .bitchin-kitchen {
+.menu .bitchin-kitchen {
   text-align: left;
   text-transform: uppercase;
 }
 
 @media screen and (min-width: 992px) {
-  section#menu .menu-group {
+  section.menu .menu-group {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  section#menu .menu-item-image {
+  section.menu .menu-item-image {
     width: 125px;
     height: 125px;
   }
@@ -426,6 +427,11 @@ footer ul li a:visited {
 }
 
 /* will use JS to fuck with this */
-#menu {
+.menu {
   /* display: none; */
+}
+
+/* Lunch Menu */
+.menu-hours-box p {
+  display: inline-block;
 }
