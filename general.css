@@ -62,7 +62,7 @@ section {
   text-decoration: none;
   /* display must be set to inline-block to add spacing styles */
   display: inline-block;
-  padding: 16px 32px;
+  padding: 1.6rem;
   /* border-radius: 9px; */
 }
 
