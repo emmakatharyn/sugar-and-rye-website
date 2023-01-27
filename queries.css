@@ -3,6 +3,9 @@
   /* .section-hero {
     background-size: contain;
   } */
+  section#drinks .menu-item-description {
+    font-size: 1.4rem;
+  }
 }
 
 @media (max-width: 976px) {
@@ -243,6 +246,34 @@
     min-height: fit-content;
     margin-top: 6.4rem;
     gap: 2.4rem;
+  }
+
+  section.menu p.disclaimer {
+    text-align: center;
+    font-size: 1.6rem;
+    opacity: 50%;
+  }
+
+  .menu-group,
+  section#brunch .menu-group,
+  section#lunch .menu-group,
+  section#dinner .menu-group,
+  section#drinks .menu-group,
+  section#beer .menu-group {
+    grid-template-columns: 1fr;
+  }
+
+  span.menu-item-name {
+    font-size: 2.4rem;
+  }
+
+  section#brunch p.menu-item-description,
+  section#lunch p.menu-item-description,
+  section#dinner p.menu-item-description,
+  section#drinks p.menu-item-description,
+  section#beer p.menu-item-description {
+    font-size: 2rem;
+    color: #919191;
   }
 }
 

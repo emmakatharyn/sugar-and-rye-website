@@ -34,8 +34,7 @@ body {
 main {
   background-color: #f9d1d3;
 }
-nav li a:link,
-section p {
+nav li a:link {
   font-family: Roboto, Arial, sans-serif;
 }
 
