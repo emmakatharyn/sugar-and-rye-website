@@ -74,6 +74,9 @@
   }
 
   /* end of original nav queries */
+  .section-hero {
+    height: 768px;
+  }
   .hero {
     text-align: center;
     margin: 0 auto;
@@ -112,6 +115,23 @@
 }
 
 @media (max-width: 850px) {
+  /* need to change hero background to show banana */
+  /* 
+  https://images.unsplash.com/photo-1532524869408-e8550b8fc54e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80
+
+  https://images.unsplash.com/photo-1503149779833-1de50ebe5f8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80
+  */
+
+  .section-hero {
+    background-size: contain;
+    background-image: none;
+    background-color: rgba(249, 210, 212, 0.547);
+    /* background-repeat: no-repeat; */
+  }
+
+  .section-hero .hero {
+    background-color: rgba(136, 150, 114, 0.67);
+  }
   .hours-flexbox {
     gap: 1.2rem;
   }
@@ -195,8 +215,14 @@
   #reservations .flex-div div p,
   #menus .flex-div div p,
   #about .flex-div div p {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     margin-bottom: 6.4rem;
+    width: 100%;
+    line-height: 1.4;
+  }
+
+  #about p {
+    max-width: 100%;
   }
 
   .heading-secondary {
@@ -273,6 +299,11 @@
   section#beer p.menu-item-description {
     font-size: 2rem;
     color: #919191;
+  }
+
+  #about .btn:link,
+  #about .btn:visited {
+    width: 100%;
   }
 }
 
