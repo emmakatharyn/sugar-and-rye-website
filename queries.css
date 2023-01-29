@@ -80,7 +80,7 @@
   .hero {
     text-align: center;
     margin: 0 auto;
-    width: 75%;
+    width: 100%;
     /* margin-top: 10px; */
     /* position: relative; */
     /* top: 25%; */
@@ -131,6 +131,7 @@
 
   .section-hero .hero {
     background-color: rgba(136, 150, 114, 0.67);
+    max-width: 100%;
   }
   .hours-flexbox {
     gap: 1.2rem;
