@@ -272,7 +272,7 @@
 #reservations .flex-div div p,
 #menus .flex-div div p,
 #about .flex-div div p {
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-align: center;
   line-height: 1.8;
 }
@@ -463,11 +463,15 @@ section.menu .menu-group-heading.cocktails-heading {
 
 #about p {
   font-family: "Garet Book", Arial, Helvetica, sans-serif;
-  max-width: 75%;
+  max-width: 95%;
 }
 
 #about .flex-div {
   align-items: center;
+}
+
+#about .heading-secondary {
+  margin-bottom: 1.2rem;
 }
 
 footer {
