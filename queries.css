@@ -10,9 +10,7 @@
 
 @media (max-width: 976px) {
   /* start of original nav queries */
-  nav.main-nav {
-    /* display: none; */
-  }
+
   .header {
     justify-content: space-between;
   }
@@ -263,9 +261,6 @@
     margin-bottom: 6.4rem;
     width: 100%;
     max-width: 36rem;
-  }
-  .hero-logo-box img {
-    /* max-width: 100vh; */
   }
 
   .hours-flexbox {

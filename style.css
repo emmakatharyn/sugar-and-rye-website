@@ -503,10 +503,7 @@ footer ul li a:visited {
 }
 
 /* COCKTAILS */
-section#drinks .menu-group-heading,
-#beer .menu-group-heading {
-  /* font-family: "Permanent Marker", serif; */
-}
+
 section#brunch .menu-group,
 section#lunch .menu-group,
 section#dinner .menu-group {
