@@ -516,7 +516,8 @@ section#dinner .menu-group {
 }
 
 section#drinks .menu-group,
-section#beer .menu-group {
+section#beer .menu-group,
+section#wine .menu-group {
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -528,7 +529,8 @@ section#drinks .menu-item,
 }
 
 section#drinks .menu-item-description,
-#beer .menu-item-description {
+#beer .menu-item-description,
+#wine .menu-item-description {
   font-family: "Garet Book", Arial, Helvetica, sans-serif;
   color: rgba(146, 146, 146, 0.847);
 }
@@ -541,4 +543,11 @@ section#drinks .menu-item-description,
 #beer .menu-item-description {
   margin-top: 0;
   margin-bottom: 1.8rem;
+}
+
+section#wine .menu-item-text ul {
+  list-style: none;
+  line-height: 2;
+  font-size: 1.2rem;
+  padding-left: 0;
 }
