@@ -510,14 +510,14 @@ footer ul li a:visited {
 
 section#brunch .menu-group,
 section#lunch .menu-group,
-section#dinner .menu-group {
+section#dinner .menu-group,
+section#wine .menu-group {
   /* background-color: pink; */
   grid-template-columns: repeat(2, 1fr);
 }
 
 section#drinks .menu-group,
-section#beer .menu-group,
-section#wine .menu-group {
+section#beer .menu-group {
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -535,6 +535,10 @@ section#drinks .menu-item-description,
   color: rgba(146, 146, 146, 0.847);
 }
 
+#wine .menu h3.menu-section {
+  font-size: 1.8rem;
+}
+
 #beer .menu-item-text h4 {
   font-size: 1.8rem;
   margin-bottom: 0;
@@ -548,6 +552,16 @@ section#drinks .menu-item-description,
 section#wine .menu-item-text ul {
   list-style: none;
   line-height: 2;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   padding-left: 0;
+}
+
+#bubbly .menu-item-name {
+  color: rgba(146, 146, 146, 0.797);
+  font-size: 1.8rem;
+}
+
+#bubbly .menu-item-name em {
+  color: rgba(56, 56, 56, 0.847);
+  font-size: 2rem;
 }
