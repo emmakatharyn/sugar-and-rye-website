@@ -329,9 +329,11 @@ section.menu p.disclaimer.left {
 }
 
 section.menu p.disclaimer-top {
-  font-size: 1.2rem;
+  color: #555555b2;
+  font-size: 1.6rem;
   font-style: italic;
-  line-height: 1.2;
+  line-height: 1.6;
+  margin-top: 1.2rem;
 }
 
 section.menu .menu {
@@ -391,6 +393,7 @@ section.menu .menu-item-heading {
 section.menu .menu-item-name {
   margin-right: 1.5em;
   text-transform: uppercase;
+  color: #828d72;
 }
 
 section.menu .menu-item-description {
@@ -407,7 +410,7 @@ section.menu .dietary-icon-box {
 section.menu .dietary-icon-box .dietary-icon {
   display: inline-block;
   font-size: 1.2rem;
-  background-color: #8896724e;
+  background-color: #88967277;
   color: #fff;
   padding: 0.8rem;
   border: 1px solid #fff;
@@ -533,6 +536,46 @@ section#drinks .menu-item-description,
 #wine .menu-item-description {
   font-family: "Garet Book", Arial, Helvetica, sans-serif;
   color: rgba(146, 146, 146, 0.847);
+}
+
+#dinner .sides-banner {
+  width: 100%;
+  margin-top: 3.2rem;
+  /* display: flex; */
+}
+
+#dinner .sides-banner .menu-item-heading {
+  justify-content: center;
+  align-items: center;
+}
+
+#dinner .sides-banner .menu-item-heading span.menu-item-name {
+  margin: 0 auto;
+}
+
+#dinner .sides-banner p.disclaimer-top {
+  text-align: center;
+}
+
+#dinner .sides-container {
+  width: 90%;
+  /* text-align: center; */
+  display: flex;
+  column-gap: 4.8rem;
+  row-gap: 3.2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 2.4rem auto 4.2rem;
+}
+
+#dinner .sides-banner p.side-piece {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  /* display: inline-block; */
+  /* padding: 1.2rem 1.8rem; */
+  margin-bottom: 0;
+  text-align: center;
 }
 
 #wine .menu h3.menu-section {
