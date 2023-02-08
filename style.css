@@ -313,6 +313,22 @@
   background-color: #7c8868;
 }
 
+/* *** photo gallery grid *** */
+#gallery .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5.6rem 0;
+  row-gap: 3.6rem;
+  column-gap: 3.6rem;
+  justify-items: center;
+  max-width: 96rem;
+  margin: 0 auto;
+}
+
+#gallery img {
+  max-width: 28rem;
+}
+
 /* actual menu section */
 section.menu {
   margin-top: 9.4rem;
