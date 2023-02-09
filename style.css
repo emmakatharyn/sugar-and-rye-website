@@ -314,6 +314,10 @@
 }
 
 /* *** photo gallery grid *** */
+#gallery h2.heading-secondary {
+  padding-top: 4.2rem;
+  text-align: center;
+}
 #gallery .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
