@@ -100,7 +100,8 @@
   }
 
   #about .heading-secondary {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
+    margin-top: 2.4rem;
   }
 
   #about .flex-div div p {
@@ -124,6 +125,23 @@
   }
 }
 
+@media (max-width: 900px) {
+  .hours-flexbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .hours-flexbox div {
+    font-size: 1.8rem;
+  }
+
+  #openTableLink,
+  #about .btn {
+    width: 100%;
+  }
+}
+
 @media (max-width: 850px) {
   /* need to change hero background to show banana */
   /* 
@@ -144,12 +162,18 @@
     max-width: 100%;
   }
   .hours-flexbox {
-    gap: 1.2rem;
+    width: 80%;
+    margin: 4.8rem auto;
+    gap: 2rem;
   }
   .hours-flexbox div h4 {
     font-size: 2rem;
   }
 
+  .hours-flexbox p {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
   /* #dinner uhhhhhh */
 
   #dinner .sides-container {
@@ -224,8 +248,14 @@
     z-index: 2;
   }
 
-  #hoursBanner {
-    height: 96rem;
+  .hero .btn:link,
+  .hero .btn:visited {
+    width: 96%;
+    flex-direction: column;
+  }
+
+  .hours-flexbox div p {
+    font-size: 2.4rem;
   }
 
   #reservations .flex-div,
@@ -249,14 +279,14 @@
   #reservations .flex-div div,
   #menus .flex-div div,
   #about .flex-div div {
-    gap: 3.2rem;
+    gap: 2.4rem;
   }
 
   #reservations .flex-div div p,
   #menus .flex-div div p,
   #about .flex-div div p {
     font-size: 2.4rem;
-    margin-bottom: 6.4rem;
+    margin-bottom: 4.2rem;
     width: 100%;
     line-height: 1.4;
   }
@@ -273,9 +303,16 @@
 
 @media (max-width: 760px) {
   .hours-flexbox {
+    height: 42rem;
     flex-direction: column;
     gap: 3.2rem;
+    column-gap: 0;
+    /* flex-wrap: wrap; */
   }
+
+  /* .hours-flexbox p {
+    font-size: 1.8rem;
+  } */
 
   #about .flex-div div {
     margin-bottom: 6.4rem;
@@ -315,7 +352,7 @@
   .hours-flexbox {
     /* flex-direction: column; */
     min-height: fit-content;
-    margin-top: 6.4rem;
+    margin-top: 14rem;
     gap: 2.4rem;
   }
 
@@ -348,7 +385,14 @@
 
   #about .btn:link,
   #about .btn:visited {
-    width: 100%;
+    width: 95%;
+  }
+}
+
+@media (max-width: 580px) {
+  .hours-flexbox {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -391,6 +435,10 @@
     padding: 0;
   }
 
+  #about .flex-div div p {
+    padding: 1.2rem 0.8rem;
+  }
+
   footer {
     flex-direction: column;
     gap: 1.2rem;
@@ -398,6 +446,13 @@
 
   footer ul {
     padding-left: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  #menus .container {
+    padding: 2.4rem;
+    padding-bottom: 6.4rem;
   }
 }
 
