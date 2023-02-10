@@ -164,7 +164,7 @@
   .hours-flexbox {
     width: 80%;
     margin: 4.8rem auto;
-    gap: 2rem;
+    gap: 4.2rem;
   }
   .hours-flexbox div h4 {
     font-size: 2rem;
