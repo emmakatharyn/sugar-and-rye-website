@@ -19,6 +19,7 @@
   }
   .btn-mobile-nav {
     display: block;
+    z-index: 1000;
   }
 
   .main-nav {
@@ -160,6 +161,7 @@
   .section-hero .hero {
     background-color: rgba(136, 150, 114, 0.67);
     max-width: 100%;
+    padding-top: 9.6rem;
   }
   .hours-flexbox {
     width: 80%;

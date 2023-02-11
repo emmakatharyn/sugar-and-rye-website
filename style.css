@@ -19,15 +19,16 @@
 
 /* start of original navigation styles */
 .header {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f9f2f2;
-
+  /* background-color: #f9f2f2; */
+  background: transparent;
   /* want header to be sticky later on */
   height: 9.6rem;
   padding: 0 1.8rem;
-  position: relative;
+  position: absolute;
   z-index: 100;
 }
 
@@ -47,9 +48,14 @@
   text-transform: uppercase;
   display: inline-block;
   text-decoration: none;
-  color: #333;
+  color: #f9f2f2;
   font-weight: 500;
   font-size: 1.8rem;
+}
+
+.nav-open .main-nav-link:link,
+.nav-open .main-nav-link:visited {
+  color: #5a634b;
 }
 
 .main-nav-link:hover,
@@ -87,11 +93,33 @@
 .icon-mobile-nav {
   height: 4.8rem;
   width: 4.8rem;
-  color: #333;
+  color: #f9f2f2;
 }
 
 .icon-mobile-nav[name="close-outline"] {
   display: none;
+  color: #5a634b;
+}
+
+/* *** STICKY NAVIGATION  *** */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9d1d3b6;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 999;
+}
+
+.sticky .main-nav-link:link,
+.sticky .main-nav-link:visited {
+  color: #333;
+}
+
+.sticky .section-hero {
 }
 
 /* end of original navigation styles */
