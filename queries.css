@@ -305,7 +305,7 @@
 
 @media (max-width: 760px) {
   .hours-flexbox {
-    height: 42rem;
+    height: 56rem;
     flex-direction: column;
     gap: 3.2rem;
     column-gap: 0;
@@ -354,7 +354,7 @@
   .hours-flexbox {
     /* flex-direction: column; */
     min-height: fit-content;
-    margin-top: 14rem;
+    margin-top: 4.2rem;
     gap: 2.4rem;
   }
 
