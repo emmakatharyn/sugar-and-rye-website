@@ -358,6 +358,11 @@
     gap: 2.4rem;
   }
 
+  #phone .phone-number:link,
+  #phone .phone-number:visited {
+    font-size: 3.6rem;
+  }
+
   section.menu p.disclaimer {
     text-align: center;
     font-size: 1.6rem;

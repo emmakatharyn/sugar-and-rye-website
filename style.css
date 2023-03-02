@@ -260,6 +260,18 @@
   letter-spacing: -1px;
 }
 
+#phone .phone-number:link,
+#phone .phone-number:visited {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #889672;
+}
+
+#phone .phone-number:hover,
+#phone .phone-number:active {
+  text-decoration: underline;
+  color: #656e55;
+}
 /* reservations, menus, about */
 #reservations {
   margin-bottom: 3.2rem;
