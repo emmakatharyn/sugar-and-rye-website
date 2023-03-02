@@ -94,6 +94,9 @@
   .hero div.hero-blurb p {
     font-size: 2.4rem;
     text-align: center;
+
+    max-width: 76rem;
+    margin: 0 auto;
   }
 
   .hero-btns-box {

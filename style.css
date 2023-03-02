@@ -157,17 +157,18 @@
   /* transform: translate(-75%, -50%); */
 }
 
-.hero .hero-logo-box {
+/* .hero .hero-logo-box {
   margin-bottom: 3.6rem;
-}
+} */
 
 .hero-logo-box img {
   width: 42rem;
 }
 
 .hero .heading-primary {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto Slab", serif;
   color: #fff;
+  font-weight: 400;
 }
 .hero div.hero-blurb {
   text-align: center;
@@ -295,6 +296,10 @@
   gap: 2.4rem;
   padding-bottom: 4.2rem;
   flex-shrink: 0;
+}
+
+#reservations .heading-secondary {
+  margin-top: 5.6rem;
 }
 
 #menus {
