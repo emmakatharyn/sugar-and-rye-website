@@ -121,7 +121,7 @@
 
 .sticky .section-hero {
 }
-
+/* rgba(249, 210, 212, 0.615) */
 /* end of original navigation styles */
 
 .section-hero {
@@ -132,11 +132,10 @@
   align-items: center;
   justify-content: center; */
   background-image: linear-gradient(
-      rgba(136, 150, 114, 0.75),
-      rgba(119, 131, 101, 0.85) /* rgba(249, 210, 212, 0.615) */
+      rgba(121, 150, 114, 0.65),
+      rgba(101, 131, 105, 0.85)
     ),
-    /* url("https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"); */
-      url("images/image-6.jpg");
+    url("images/image-6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -147,7 +146,7 @@
   /* width: 60%; */
   color: #fff;
   font-size: 2rem;
-  padding-top: 10%;
+  padding-top: 16rem;
   padding-bottom: 20%;
   margin-left: 10%;
   /* position: absolute; */
@@ -387,6 +386,18 @@
 
 #gallery img {
   max-width: 28rem;
+}
+
+section#reservations {
+  margin-top: 4.2rem;
+  padding: 6.4rem 3.2rem;
+}
+
+section#hoursBanner,
+section#about {
+  margin-top: 6rem;
+  padding-top: 4.2rem;
+  padding-bottom: 4.2rem;
 }
 
 /* actual menu section */

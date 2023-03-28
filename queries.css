@@ -162,9 +162,9 @@
   }
 
   .section-hero .hero {
-    background-color: rgba(136, 150, 114, 0.67);
+    background-color: rgba(136, 150, 114, 0.45);
     max-width: 100%;
-    padding-top: 9.6rem;
+    padding-top: 14rem;
   }
   .hours-flexbox {
     width: 80%;
