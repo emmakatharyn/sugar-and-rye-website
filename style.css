@@ -439,15 +439,15 @@ section.menu h3.menu-section {
   display: inline-block;
   border-bottom: 2px solid #99cd3262;
   margin-top: 2.4rem;
-  font-size: 4.2rem;
-  font-family: "Babylonica", "Garet Book", cursive;
+  font-size: 2.4rem;
+  font-family: "Garet Book", Arial, Helvetica, sans-serif;
 }
 section.menu .menu-group-heading {
   margin: 0;
   margin-bottom: 2.4rem;
   padding-bottom: 1.6rem;
   margin-top: 5.6rem;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #e6e6e6;
   font-size: 7.2rem;
   /* font-family: "Homemade Apple", cursive; */
 }
@@ -535,8 +535,10 @@ section.menu .sides {
 
 /* brunch cocktails */
 section.menu .menu-group-heading.cocktails-heading {
-  font-size: 5.6rem;
-  margin-top: 1.2rem;
+  font-size: 3.6rem;
+  margin-top: 2.4rem;
+  border-bottom: 2px solid #e6e6e6;
+  font-family: "Garet Book", Arial, Helvetica, sans-serif;
 }
 
 .menu .bitchin-kitchen {
