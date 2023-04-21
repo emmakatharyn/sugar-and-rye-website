@@ -371,7 +371,7 @@
   padding-top: 4.2rem;
   text-align: center;
 }
-#gallery .container {
+/* #gallery .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 0 0 5.6rem;
@@ -384,7 +384,7 @@
 
 #gallery img {
   max-width: 28rem;
-}
+} */
 
 section#reservations {
   margin-top: 4.2rem;
