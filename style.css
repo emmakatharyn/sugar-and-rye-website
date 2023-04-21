@@ -371,20 +371,6 @@
   padding-top: 4.2rem;
   text-align: center;
 }
-#gallery .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 0 0 5.6rem;
-  row-gap: 3.6rem;
-  column-gap: 3.6rem;
-  justify-items: center;
-  max-width: 96rem;
-  margin: 0 auto;
-}
-
-#gallery img {
-  max-width: 28rem;
-}
 
 section#reservations {
   margin-top: 4.2rem;
