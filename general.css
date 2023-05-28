@@ -55,6 +55,11 @@ section {
   margin: 0 auto;
 }
 
+.flex {
+  width: 100%;
+  display: flex;
+}
+
 .btn:link,
 .btn:visited {
   font-family: "Garet Book", Arial, Helvetica, sans-serif;
