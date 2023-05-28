@@ -122,12 +122,12 @@
     row-gap: 2.4rem;
     column-gap: 2.4rem;
   } */
-/* 
+  /* 
   #gallery img {
     width: 100%;
     max-width: 42rem;
-  }
-} */
+  }*/
+}
 
 @media (max-width: 900px) {
   .hours-flexbox {
