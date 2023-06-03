@@ -57,7 +57,6 @@
         cursor: pointer;
       }
 
-
       /* Gallery image */
       .gallery-item img {
         width: 100%;
@@ -118,15 +117,19 @@
             <a class="main-nav-link" href="index.html#hoursBanner">Hours</a>
           </li>
           <li>
-            
             <a href="#gallery" class="main-nav-link">Gallery</a>
           </li>
           <li><a class="main-nav-link" href="#phone">Contact</a></li>
-          
+
           <li>
-            <a href="https://order.online/store/sugar-&-rye-(church-st)sugar-&-rye-galveston-24952112/?hideModal=true&pickup=true" class="main-nav-link" target="_blank">Order Online</a>
+            <a
+              href="https://order.online/store/sugar-&-rye-(church-st)sugar-&-rye-galveston-24952112/?hideModal=true&pickup=true"
+              class="main-nav-link"
+              target="_blank"
+              >Order Online</a
+            >
           </li>
-          
+
           <li>
             <a
               class="main-nav-link nav-cta"
@@ -287,7 +290,7 @@
 
           <div class="menu-links-box">
             <a
-              href="menus/New-Brunch-Menu.pdf"
+              href="menu.html#brunch"
               id="brunch-menu-link"
               class="btn"
               target="_blank"
@@ -301,18 +304,18 @@
               >Lunch Menu</a
             > -->
             <a
-              href="menus/New-Dinner-Menu.pdf"
+              href="menu.html#dinner"
               id="dinnerMenu"
               class="btn"
               target="_blank"
               >Dinner Menu</a
             >
             <a
-              href="menus/New-Drink-Menu.pdf"
+              href="menu.html#drinks"
               id="boozeyMenu"
               class="btn"
               target="_blank"
-              >Cocktails & Beer</a
+              >Drink Menu</a
             >
           </div>
         </div>
@@ -393,23 +396,23 @@
               />
             </div>
             <div class="gallery-item">
-              <img 
-                src="optimized-images/derby-folks-and-wallpaper.png" 
-                alt="Guests dining during Kentucky Derby festivities" 
+              <img
+                src="optimized-images/derby-folks-and-wallpaper.png"
+                alt="Guests dining during Kentucky Derby festivities"
                 onclick="showLightbox(this.src)"
               />
             </div>
             <div class="gallery-item">
-              <img 
-                src="optimized-images/pimms-i-think-plus-martini.png" 
-                alt="Cocktails looking sexy as always" 
+              <img
+                src="optimized-images/pimms-i-think-plus-martini.png"
+                alt="Cocktails looking sexy as always"
                 onclick="showLightbox(this.src)"
               />
             </div>
             <div class="gallery-item">
-              <img 
-                src="optimized-images/veuve-cliquot.png" 
-                alt="Placing a bottle of Veuve in a chiller" 
+              <img
+                src="optimized-images/veuve-cliquot.png"
+                alt="Placing a bottle of Veuve in a chiller"
                 onclick="showLightbox(this.src)"
               />
             </div>
@@ -423,8 +426,6 @@
         <span class="close-btn">&times;</span>
         <img src="" alt="Lightbox Image" />
       </div>
-        </div>
-      </section>
 
       <section id="about">
         <div class="container">
@@ -508,22 +509,22 @@
       );
     </script>
 
-<script>
-  // Show lightbox with clicked image
-  function showLightbox(src) {
-    var lightbox = document.querySelector(".lightbox");
-    var lightboxImg = lightbox.querySelector("img");
-    lightboxImg.src = src;
-    lightbox.style.display = "flex";
-  }
+    <script>
+      // Show lightbox with clicked image
+      function showLightbox(src) {
+        var lightbox = document.querySelector(".lightbox");
+        var lightboxImg = lightbox.querySelector("img");
+        lightboxImg.src = src;
+        lightbox.style.display = "flex";
+      }
 
-  // Hide lightbox when clicked outside of image or on close button
-  function hideLightbox() {
-    var lightbox = document.querySelector(".lightbox");
-    lightbox.style.display = "none";
-  }
-</script>
-<!-- <script>
+      // Hide lightbox when clicked outside of image or on close button
+      function hideLightbox() {
+        var lightbox = document.querySelector(".lightbox");
+        lightbox.style.display = "none";
+      }
+    </script>
+    <!-- <script>
   (function(e, t, r, n) {
      var o, c, s;
      o = e.document, c = t.children[0], s = o.createElement("script"), e.StorefrontSDKObject = "StorefrontSDK", e[e.StorefrontSDKObject] = {

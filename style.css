@@ -639,6 +639,32 @@ section#drinks .menu-item-description,
   color: rgba(146, 146, 146, 0.847);
 }
 
+#beer .menu-item-description {
+  padding-left: 0;
+}
+
+#beer .menu-item-description li {
+  list-style: none;
+}
+
+#beer .menu-item-description ul {
+  margin-bottom: 1.2rem;
+}
+
+#wine .menu-item-description li {
+  font-size: 1.6rem;
+  letter-spacing: 0.025rem;
+  line-height: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+#wine .menu-item-description li .bold-name {
+  font-weight: 700;
+  color: #7c7c7cd8;
+}
+
+#wine .menu-item-description li .bold-name span br {
+  height: 1.2rem;
+}
 #dinner .sides-banner {
   width: 100%;
   margin-top: 3.2rem;
