@@ -376,7 +376,8 @@
   section#lunch .menu-group,
   section#dinner .menu-group,
   section#drinks .menu-group,
-  section#beer .menu-group {
+  section#beer .menu-group,
+  section#wine .menu-group {
     grid-template-columns: 1fr;
   }
 
