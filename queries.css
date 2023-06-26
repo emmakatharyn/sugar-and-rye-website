@@ -100,7 +100,13 @@
   }
 
   .hero-btns-box {
+    margin: 3.2rem auto 0;
     justify-content: center;
+  }
+  .hero .btn:link,
+  .hero .btn:visited {
+    /* width: 50%; */
+    width: 32rem;
   }
 
   #about .heading-secondary {
@@ -146,7 +152,7 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 870px) {
   /* need to change hero background to show banana */
   /* 
   https://images.unsplash.com/photo-1532524869408-e8550b8fc54e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80
@@ -165,6 +171,13 @@
     background-color: rgba(136, 150, 114, 0.45);
     max-width: 100%;
     padding-top: 14rem;
+  }
+
+  .hero-btns-box {
+    margin-top: 3.2rem;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
   }
   .hours-flexbox {
     width: 80%;
@@ -256,7 +269,7 @@
   .hero .btn:link,
   .hero .btn:visited {
     width: 96%;
-    flex-direction: column;
+    margin: 0 auto;
   }
 
   .hours-flexbox div p {
