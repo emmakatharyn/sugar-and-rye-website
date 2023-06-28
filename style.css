@@ -200,6 +200,16 @@
   cursor: pointer;
 }
 
+/* promos */
+#promos {
+  margin-top: 4.8rem;
+  padding: 3.6rem 0;
+}
+
+#promotional-section img {
+  max-width: 49%;
+}
+
 /* Hours section */
 #hoursBanner {
   text-align: center;
@@ -305,8 +315,8 @@
 #reservations .flex-div img,
 #menus .flex-div img,
 #about .flex-div img {
-  width: 50%;
-  max-width: 42rem;
+  /* width: 50%; */
+  min-width: 42rem;
   /* align-self: center; */
 }
 
@@ -390,7 +400,7 @@ section#gallery {
 
 section#reservations {
   margin-top: 4.2rem;
-  padding: 6.4rem 3.2rem;
+  padding-top: 3.6rem;
 }
 
 section#hoursBanner,

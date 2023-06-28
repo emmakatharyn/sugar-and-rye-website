@@ -272,6 +272,10 @@
     margin: 0 auto;
   }
 
+  #promotional-section img {
+    max-width: 100%;
+  }
+
   .hours-flexbox div p {
     font-size: 2.4rem;
   }
