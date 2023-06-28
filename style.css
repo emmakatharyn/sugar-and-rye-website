@@ -60,8 +60,8 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  /* color: #f2c84b; */
-  color: #889672;
+  color: #f2c84b;
+  /* color: #889672; */
 }
 
 .main-nav-link.nav-cta:link,
@@ -129,7 +129,8 @@
   /* display: flex;
   align-items: center;
   justify-content: center; */
-  background-image: linear-gradient(rgba(86, 106, 81, 0.65), rgba(71, 91, 74, 0.85)), url("images/image-6.jpg");
+  /* background-image: linear-gradient(rgba(86, 106, 81, 0.65), rgba(71, 91, 74, 0.85)), url("images/image-6.jpg"); */
+  background-image: linear-gradient(#a76b6ebd, #4f3d3fb0), url("images/image-6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
