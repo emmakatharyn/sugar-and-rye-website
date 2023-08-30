@@ -209,7 +209,21 @@
 }
 
 #promotional-section img {
-  max-width: 49%;
+  max-width: 33%;
+}
+.fliers-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .fliers-box img {
+    transition: all 0.2s ease;
+  }
+
+  .fliers-box img:hover {
+    transform: scale(1.5);
+  }
 }
 
 /* Hours section */
