@@ -2,7 +2,6 @@
   font-family: "Garet Book";
   src: url("fonts/Garet-Book.woff2");
 }
-
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
@@ -520,6 +519,11 @@ section.menu .menu-item-description {
   line-height: 1.6;
   font-size: 1.6rem;
   color: #919191;
+  list-style: none;
+}
+
+ul.menu-item-description {
+  padding-left: 0;
 }
 
 section.menu .dietary-icon-box {
@@ -559,6 +563,10 @@ section.menu .sides {
 
 .side-box .sides {
   margin-top: 2rem;
+}
+
+#coffeeStuffs .sides .side-piece {
+  font-size: 1.4rem;
 }
 
 /* brunch cocktails */
@@ -752,7 +760,8 @@ section#wine .menu-item-text ul {
   font-size: 1.8rem;
 }
 
-#bubbly .menu-item-name em {
+#bubbly .menu-item-name em,
+#happyHour .menu-item-name em {
   color: rgba(56, 56, 56, 0.847);
   font-size: 2rem;
 }
